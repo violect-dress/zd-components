@@ -13,17 +13,13 @@
 |listToTree|Boolean|treeProps | 区域树是否需要转树形结构 | false
 |label|String|treeProps | 树的label字段 | 'name'
 |value|String|treeProps | 树的value字段 | 'id'
-|||||
 | tableProps | Object || 右边列表相关参数| {}
 | req | Function | tableProps | 列表请求函数 | `/sub-camera/device/config/getCameraDevice`
 | handleParams | Function | tableProps | 列表处理请求数据函数 | 参数：对象{areaId,stationId}
 | singleSelect | Boolean | tableProps | 是否单选 | false
-|||||
 | paginationProps | Object || 分页相关参数| {}
 | size | Object |Number| 分页相关参数| 10
-|||||
 | dialogProps | Object || dialog相关参数| {}
-|||||
 | submitProps | Object || 提交数据时相关参数| {}
 | handleParams | Function | submitProps | 提交数据处理函数 | 参数：对象{addList,delList,stationId}
 
