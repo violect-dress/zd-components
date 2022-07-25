@@ -34,7 +34,7 @@
 | success | 处理成功后触发 | ''
 |changeLine | 行被'选择'或'取消选择'时触发| {row, close} row为该行数据，close为关闭弹窗函数
 
-####方法 methods
+#### 方法 methods
 
 | 方法名 | 说明 | 参数
 | :--- | :---|:---
