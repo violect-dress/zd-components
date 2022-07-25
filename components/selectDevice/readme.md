@@ -1,8 +1,8 @@
 
-<a href="../../readme.md"><button>返回</button></a>
+<a href="../../README.md"><button>返回</button></a>
 
 
-####参数 props
+#### 参数 props
 
 | 参数 | 类型 | 父级 | 说明 | 默认值
 | :--- | :---|:---| :--- | :---
@@ -27,16 +27,16 @@
 | submitProps | Object || 提交数据时相关参数| {}
 | handleParams | Function | submitProps | 提交数据处理函数 | 参数：对象{addList,delList,stationId}
 
-####事件 events
+#### 事件 events
 
 | 事件 | 说明 | 参数
-| :--- | :---|:---| :--- | :---
+| :--- | :---|:---
 | success | 处理成功后触发 | ''
 |changeLine | 行被'选择'或'取消选择'时触发| {row, close} row为该行数据，close为关闭弹窗函数
 
 ####方法 methods
 
 | 方法名 | 说明 | 参数
-| :--- | :---|:---| :--- | :---
+| :--- | :---|:---
 | show | 打开弹窗 | {selectedData(已选择数据), stationId(场站ID)}
 |dialogBeforeClose | 关闭弹窗| 
